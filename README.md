@@ -7,6 +7,13 @@ fastapi run ffmpeg-api.py
 fastapi dev ffmpeg-api.py
 ```
 
+after hosting, api documentation can be accessed at an endpoint
+
+```sh
+localhost:8000/docs
+```
+
+
 example usage
 
 ```sh
