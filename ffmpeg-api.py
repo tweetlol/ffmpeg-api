@@ -48,7 +48,7 @@ def convert_image_to_video(post_id: int, image_url: str, arg2: Union[str,None] =
 class Post(BaseModel):
     post_id: int
     image_url: str
-    arg3: str
+    sound_url: Union[str, None] = "None" 
 
 ##conversion endpoint
 ##expects Post model json structure as argument (data sent in request)
