@@ -13,7 +13,6 @@ after hosting, api documentation can be accessed at an endpoint
 localhost:8000/docs
 ```
 
-
 example usage
 
 ```sh
